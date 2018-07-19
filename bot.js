@@ -100,6 +100,29 @@ client.elevation = message => {
   return permlvl;
 };
 
+
+client.on('message', msg => {
+  if (msg.content === 'sikik') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'amına koyayım') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+
+client.on('message', msg => {
+  if (msg.content === 'amina koyayim') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
 client.on('message', msg => {
   if (msg.content === 'piç') {
    msg.delete(30)
