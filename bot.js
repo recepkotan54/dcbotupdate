@@ -100,6 +100,12 @@ client.elevation = message => {
   return permlvl;
 };
 
+client.on('message', msg => {
+  if (msg.content === 'sg') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
 
 client.on('message', msg => {
   if (msg.content === 'sikik') {
