@@ -11,7 +11,7 @@ exports.run = function(client, message) {
 	
 	var cevap = cevaplar[Math.floor(Math.random() * cevaplar.length)];
 	
-	if (cevap === "YAZI-TURA:__YAZI__**") {
+	if (cevap === "__YAZI__**") {
 		
 		 const embedyazı = new Discord.RichEmbed()
 		.setColor(0xf4b942)
@@ -19,7 +19,7 @@ exports.run = function(client, message) {
 		.setThumbnail("https://cdn.discordapp.com/attachments/468018438338641921/469572913385963521/658_d8ab1_tedavul_arka.jpeg")
 		message.channel.send(embedyazı);
 		
-	} else if (cevap === "YAZI-TURA:__TURA__**") {
+	} else if (cevap === "__TURA__**") {
 		
 		const embedtura = new Discord.RichEmbed()
 		.setColor(0xf4b942)
