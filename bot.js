@@ -79,6 +79,12 @@ client.unload = command => {
 };
 
 client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'günaydın') {
+    msg.reply('**Günaydın!**');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
     msg.reply('**Aleyküm Selam, Hoşgeldin!**');
   }
@@ -93,6 +99,13 @@ client.elevation = message => {
   if (message.author.id === ayarlar.sahip) permlvl = 4;
   return permlvl;
 };
+
+client.on('message', msg => {
+  if (msg.content === 'piç') {
+   msg.delete(30)
+    msg.reply('Küfür Engellendi');
+  }
+})
 
 client.on('message', msg => {
   if (msg.content === 'discord.gg') {
