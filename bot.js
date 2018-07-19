@@ -103,21 +103,133 @@ client.elevation = message => {
 client.on('message', msg => {
   if (msg.content === 'piç') {
    msg.delete(30)
-    msg.reply('Küfür Engellendi');
+    msg.reply('**Küfür Engellendi**');
   }
 })
 
 client.on('message', msg => {
-  if (msg.content === 'discord.gg') {
+  if (msg.content === 'siktir git') {
    msg.delete(30)
-    msg.reply('Reklam Engellendi');
+    msg.reply('**Küfür Engellendi**');
   }
-});
+})
 
+client.on('message', msg => {
+  if (msg.content === 'oc') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'oç') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'ananı sikeyim') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'ebeni sikeyi') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'aq') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'orospu çocuğu') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'orospu') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'amcık') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'yarrak') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'am') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'vajina') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'göt') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'sikik') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'orospu cocu') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'o.ç') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === 'o.c') {
+   msg.delete(30)
+    msg.reply('**Küfür Engellendi**');
+  }
+})
+ 
 client.on('message', msg => {
   if (msg.content === 'amk') {
    msg.delete(30)
-    msg.reply('Kufur Engellendi');
+    msg.reply('**Kufur Engellendi**');
   }
 });
 
