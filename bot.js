@@ -123,6 +123,13 @@ client.elevation = message => {
 };
 
 client.on('message', msg => {
+  if (msg.content === 'discord.gg') {
+   msg.delete(30)
+    msg.reply('Reklam Engellendi');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === 'amk') {
    msg.delete(30)
     msg.reply('Kufur Engellendi');
