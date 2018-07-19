@@ -79,6 +79,27 @@ client.unload = command => {
 };
 
 client.on('message', msg => {
+  if (msg.content === './tts') {
+   msg.delete(30)
+    msg.reply('**Yazı Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === '38127947') {
+   msg.delete(30)
+    msg.reply('**Yazı Engellendi**');
+  }
+})
+
+client.on('message', msg => {
+  if (msg.content === './tts38127947') {
+   msg.delete(30)
+    msg.reply('**Yazı Engellendi**');
+  }
+})
+
+client.on('message', msg => {
   if (msg.content.toLowerCase() === 'günaydın') {
     msg.reply('**Günaydın!**');
   }
